@@ -34,7 +34,7 @@ jobs:
         shell: bash
         run: |
           yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager "platform-tools" "platforms;android-37" "build-tools;36.0.0"
+          sdkmanager "platform-tools" "platforms;android-34" "build-tools;36.0.0"
 
       - name: Build release APK
         run: gradle --no-daemon :app:assembleRelease
