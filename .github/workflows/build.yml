@@ -37,7 +37,7 @@ jobs:
           sdkmanager "platform-tools" "platforms;android-34" "build-tools;36.0.0"
 
       - name: Build release APK
-        run: gradle --no-daemon :app:assembleDebug
+        run: gradle --no-daemon :app:assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
