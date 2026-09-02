@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AgentHub</string>
+    <string name="accessibility_service_description">Lets AgentHub inspect visible UI elements and perform user-authorized interactions on the device.</string>
+</resources>
