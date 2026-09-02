@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.devran.agenthub"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.devran.agenthub"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 2
         versionName = "1.0.0"
     }
