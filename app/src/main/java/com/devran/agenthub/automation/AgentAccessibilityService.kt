@@ -1,3 +1,4 @@
+import android.view.accessibility.AccessibilityNodeInfo
 package com.devran.agenthub.automation
 
 import android.accessibilityservice.AccessibilityService
