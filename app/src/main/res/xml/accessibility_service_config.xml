@@ -7,5 +7,5 @@
     android:canRetrieveWindowContent="true"
     android:canPerformGestures="true"
     android:canRequestFilterKeyEvents="false"
-    android:flags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
     android:settingsActivity="com.devran.agenthub.MainActivity" />
