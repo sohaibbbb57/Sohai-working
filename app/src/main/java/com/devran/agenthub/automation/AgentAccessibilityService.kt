@@ -96,7 +96,7 @@ class AgentAccessibilityService : AccessibilityService() {
     fun imeEnter(): Boolean {
         if (android.os.Build.VERSION.SDK_INT < 30) return false
         val node = root()?.let { findFocusedEditable(it) } ?: return false
-        return node.performAction(AccessibilityNodeInfo.ACTION_IME_ENTER)
+        return node.performAction(AccessibilityNodeInfo.AccessibilityNodeInfo.ACTION_CLICK)
     }
 
     fun focus(node: AccessibilityNodeInfo?): Boolean = node?.performAction(AccessibilityNodeInfo.ACTION_FOCUS) == true || node?.performAction(AccessibilityNodeInfo.ACTION_ACCESSIBILITY_FOCUS) == true
