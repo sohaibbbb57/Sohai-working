@@ -1,11 +1,11 @@
-plugins {
+	plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
     namespace = "com.devran.agenthub"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.devran.agenthub"
